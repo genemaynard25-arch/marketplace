@@ -88,17 +88,19 @@ productSchema.post('save', function (doc) {
   console.log(`[POST SAVE] Product saved: ${doc.name} | Slug: ${doc.productSlug}`);
 });
 
-productSchema.pre(/^find/, function () {
+productSchema.pre(/^find/, function (next) {
   this.start = Date.now(); 
   this.find({ premiumProduct: { $ne: true } });
+  next();
 });
 
 productSchema.post(/^find/, function (docs) {
   console.log(`[QUERY] Took ${Date.now() - this.start}ms`);
 });
 
-productSchema.pre('aggregate', function () {
+productSchema.pre('aggregate', function (next) {
   this.pipeline().unshift({ $match: { premiumProduct: { $ne: true } } });
+  next();
 });
 
 const Product = mongoose.model('Product', productSchema);
