@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Local Marketplace API</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; display: flex; justify-content: center; align-items: center; min-height: 100vh; }
+    .box { background: white; border-radius: 16px; padding: 3rem 4rem; box-shadow: 0 4px 24px rgba(0,0,0,0.1); text-align: center; max-width: 600px; }
+    h1 { font-size: 2.2rem; color: #2d6a4f; margin-bottom: 1rem; }
+    p { color: #555; line-height: 1.7; margin-bottom: 1.5rem; }
+    .endpoints { text-align: left; background: #f8f9fa; border-radius: 8px; padding: 1.5rem; }
+    .endpoints h3 { margin-bottom: 1rem; color: #333; }
+    .endpoint { display: flex; gap: 1rem; margin-bottom: 0.6rem; align-items: center; font-size: 0.9rem; }
+    .method { padding: 0.2rem 0.6rem; border-radius: 4px; font-weight: 700; font-size: 0.75rem; min-width: 60px; text-align: center; }
+    .get { background: #d1e7dd; color: #0a3622; }
+    .post { background: #cff4fc; color: #055160; }
+    .patch { background: #fff3cd; color: #664d03; }
+    .delete { background: #f8d7da; color: #58151c; }
+    code { font-family: monospace; color: #333; }
+    a { color: #2d6a4f; font-weight: 600; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .links { margin-top: 1.5rem; display: flex; gap: 1rem; justify-content: center; }
+    .btn { padding: 0.6rem 1.4rem; border-radius: 8px; background: #2d6a4f; color: white; text-decoration: none; font-size: 0.9rem; }
+    .btn:hover { background: #1b4332; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>🛍️ Welcome to Local Marketplace API</h1>
+    <p>A community-driven platform to buy and sell items locally.</p>
+    <div class="endpoints">
+      <h3>📡 API Endpoints</h3>
+      <div class="endpoint"><span class="method get">GET</span><code>/api/v1/products</code></div>
+      <div class="endpoint"><span class="method get">GET</span><code>/api/v1/products/:id</code></div>
+      <div class="endpoint"><span class="method post">POST</span><code>/api/v1/products</code></div>
+      <div class="endpoint"><span class="method patch">PATCH</span><code>/api/v1/products/:id</code></div>
+      <div class="endpoint"><span class="method delete">DELETE</span><code>/api/v1/products/:id</code></div>
+    </div>
+    <div class="links">
+      <a href="/overview" class="btn">Browse Marketplace</a>
+      <a href="/api" class="btn" style="background:#555">JSON API</a>
+    </div>
+  </div>
+</body>
+</html>

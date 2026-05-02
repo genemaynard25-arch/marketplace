@@ -1,0 +1,167 @@
+[
+  {
+    "name": "Second-hand Laptop",
+    "price": 15000,
+    "category": "Electronics",
+    "description": "Good condition, 8GB RAM, Intel i5",
+    "seller": "Juan Dela Cruz",
+    "ratingsAverage": 4.5,
+    "stock": 1,
+    "postedDate": "2025-01-10",
+    "premiumProduct": false
+  },
+  {
+    "name": "Harry Potter Book Set",
+    "price": 800,
+    "category": "Books",
+    "description": "Complete 7-book series, slightly used",
+    "seller": "Maria Santos",
+    "ratingsAverage": 5.0,
+    "stock": 3,
+    "postedDate": "2025-02-14",
+    "premiumProduct": false
+  },
+  {
+    "name": "Vintage Denim Jacket",
+    "price": 950,
+    "category": "Clothes",
+    "description": "Size M, 90s style, good condition",
+    "seller": "Pedro Reyes",
+    "ratingsAverage": 4.0,
+    "stock": 1,
+    "postedDate": "2025-03-01",
+    "premiumProduct": false
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": 2500,
+    "category": "Electronics",
+    "description": "TKL layout, blue switches, RGB",
+    "seller": "Ana Garcia",
+    "ratingsAverage": 4.8,
+    "stock": 2,
+    "postedDate": "2025-01-20",
+    "premiumProduct": true
+  },
+  {
+    "name": "Children's Bike",
+    "price": 700,
+    "category": "Sports",
+    "description": "16-inch wheels, training wheels included",
+    "seller": "Jose Mendoza",
+    "ratingsAverage": 4.2,
+    "stock": 1,
+    "postedDate": "2025-02-05",
+    "premiumProduct": false
+  },
+  {
+    "name": "Wooden Study Desk",
+    "price": 3500,
+    "category": "Furniture",
+    "description": "Solid wood, 120cm wide, minor scratches",
+    "seller": "Liza Villanueva",
+    "ratingsAverage": 3.9,
+    "stock": 1,
+    "postedDate": "2024-12-15",
+    "premiumProduct": false
+  },
+  {
+    "name": "Calculus Textbook",
+    "price": 350,
+    "category": "Books",
+    "description": "Early Transcendentals 8th edition",
+    "seller": "Carlo Bautista",
+    "ratingsAverage": 3.5,
+    "stock": 2,
+    "postedDate": "2025-01-30",
+    "premiumProduct": false
+  },
+  {
+    "name": "Running Shoes",
+    "price": 950,
+    "category": "Sports",
+    "description": "Nike size 42, used only twice",
+    "seller": "Rosa Aquino",
+    "ratingsAverage": 4.7,
+    "stock": 1,
+    "postedDate": "2025-03-10",
+    "premiumProduct": false
+  },
+  {
+    "name": "Graphic Tee Bundle",
+    "price": 500,
+    "category": "Clothes",
+    "description": "5 assorted graphic tees, size L",
+    "seller": "Mark Ramos",
+    "ratingsAverage": 4.1,
+    "stock": 5,
+    "postedDate": "2025-02-20",
+    "premiumProduct": false
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "price": 1100,
+    "category": "Electronics",
+    "description": "JBL Go 3, waterproof, excellent condition",
+    "seller": "Nina Cruz",
+    "ratingsAverage": 4.6,
+    "stock": 2,
+    "postedDate": "2025-01-05",
+    "premiumProduct": false
+  },
+  {
+    "name": "Folding Chair",
+    "price": 450,
+    "category": "Furniture",
+    "description": "Lightweight, foldable, good for events",
+    "seller": "Ben Torres",
+    "ratingsAverage": 3.8,
+    "stock": 4,
+    "postedDate": "2025-02-28",
+    "premiumProduct": false
+  },
+  {
+    "name": "Science Workbook",
+    "price": 250,
+    "category": "Books",
+    "description": "Grade 10 Science, lightly used pages",
+    "seller": "Lea Flores",
+    "ratingsAverage": 4.0,
+    "stock": 3,
+    "postedDate": "2025-03-05",
+    "premiumProduct": false
+  },
+  {
+    "name": "Badminton Racket Set",
+    "price": 850,
+    "category": "Sports",
+    "description": "2 rackets with birdies, beginner set",
+    "seller": "Ray Castillo",
+    "ratingsAverage": 4.3,
+    "stock": 2,
+    "postedDate": "2025-01-15",
+    "premiumProduct": false
+  },
+  {
+    "name": "Polo Shirt",
+    "price": 300,
+    "category": "Clothes",
+    "description": "Cotton polo, size XL, worn twice only",
+    "seller": "Gina Lopez",
+    "ratingsAverage": 4.0,
+    "stock": 1,
+    "postedDate": "2025-03-15",
+    "premiumProduct": false
+  },
+  {
+    "name": "Gaming Monitor",
+    "price": 12000,
+    "category": "Electronics",
+    "description": "24-inch, 144Hz, excellent display quality",
+    "seller": "Dan Reyes",
+    "ratingsAverage": 4.9,
+    "stock": 1,
+    "postedDate": "2025-02-10",
+    "premiumProduct": true
+  }
+]

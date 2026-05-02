@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{%NAME%} | Local Marketplace</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f0f4f8; color: #333; }
+    header { background: #2d6a4f; color: white; padding: 1.5rem 2rem; }
+    header h1 { font-size: 1.5rem; }
+    .container { max-width: 700px; margin: 3rem auto; background: white; border-radius: 16px; box-shadow: 0 4px 24px rgba(0,0,0,0.1); overflow: hidden; }
+    .badge { background: #d8f3dc; color: #2d6a4f; padding: 0.3rem 1rem; border-radius: 20px; font-size: 0.8rem; font-weight: 600; display: inline-block; margin-bottom: 1rem; }
+    .content { padding: 2.5rem; }
+    h2 { font-size: 2rem; margin-bottom: 0.5rem; }
+    .price { font-size: 2.5rem; font-weight: 800; color: #2d6a4f; margin: 1rem 0; }
+    .description { font-size: 1rem; color: #555; line-height: 1.7; margin-bottom: 1.5rem; }
+    .meta { border-top: 1px solid #eee; padding-top: 1.5rem; }
+    .meta p { margin-bottom: 0.5rem; font-size: 0.95rem; color: #666; }
+    .meta p span { font-weight: 600; color: #333; }
+    .back { display: inline-block; margin-top: 2rem; padding: 0.6rem 1.4rem; background: #2d6a4f; color: white; border-radius: 8px; text-decoration: none; font-size: 0.9rem; }
+    .back:hover { background: #1b4332; }
+    .id-tag { position: absolute; top: 1rem; right: 1.5rem; font-size: 0.75rem; color: #aaa; }
+    .content { position: relative; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🛍️ Local Marketplace</h1>
+  </header>
+  <div class="container">
+    <div class="content">
+      <span class="id-tag">#ID-{%ID%}</span>
+      <div class="badge">{%CATEGORY%}</div>
+      <h2>{%NAME%}</h2>
+      <div class="price">₱{%PRICE%}</div>
+      <p class="description">{%DESCRIPTION%}</p>
+      <div class="meta">
+        <p>👤 Seller: <span>{%SELLER%}</span></p>
+        <p>🏷️ Category: <span>{%CATEGORY%}</span></p>
+        <p>🆔 Product ID: <span>{%ID%}</span></p>
+      </div>
+      <a href="/overview" class="back">← Back to Marketplace</a>
+    </div>
+  </div>
+</body>
+</html>
