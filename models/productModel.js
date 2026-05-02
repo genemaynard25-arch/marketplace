@@ -79,13 +79,8 @@ productSchema.virtual('daysPosted').get(function () {
   return Math.floor((now - posted) / (1000 * 60 * 60 * 24));
 });
 
-productSchema.pre('save', function (next) {
-  try {
-    this.productSlug = slugify(this.name, { lower: false }).toUpperCase();
-    next();
-  } catch (err) {
-    next(err);
-  }
+productSchema.pre('save', async function () {
+  this.productSlug = slugify(this.name, { lower: false }).toUpperCase();
 });
 
 productSchema.post('save', function (doc) {
