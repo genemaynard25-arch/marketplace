@@ -80,8 +80,12 @@ productSchema.virtual('daysPosted').get(function () {
 });
 
 productSchema.pre('save', function (next) {
-  this.productSlug = slugify(this.name, { lower: false }).toUpperCase();
-  next();
+  try {
+    this.productSlug = slugify(this.name, { lower: false }).toUpperCase();
+    next();
+  } catch (err) {
+    next(err);
+  }
 });
 
 productSchema.post('save', function (doc) {
